@@ -13,5 +13,5 @@ int main()
     {
         printf("%c", dest[i]);
     }
-    printf("\nEND PROGRAM OUTPUT\n");
+    printf("\n");
 }
