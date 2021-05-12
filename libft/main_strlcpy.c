@@ -4,12 +4,11 @@
 
 int main()
 {
-    printf("START PROGRAM OUTPUT\n");
     char str[] = "abcdefghijklmnopqrst";
     char dest[] = "ABCDEFGHIJKLMNOPQRST";
-    printf("Before: %s ->\n%s\n", str, dest);
+    printf("Source:\t%s\nDest:\t%s\n", str, dest);
     printf("Copying 10 characters, returns length of source: %d\n", ft_strlcpy(dest, str, 10));
-    printf("After: %s ->\n", str);
+    printf("Source:\t%s\nDest:\t\n", str);
     for(int i = 0; i < 20; i++)
     {
         printf("%c", dest[i]);
