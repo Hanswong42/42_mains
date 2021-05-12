@@ -8,7 +8,7 @@ int	main(void)
 	char	*s2 = "Hell\0o";
 
 	printf("%lu\n", strlen(s1));
-	printf("%lu\n", ft_strlen(s2));
-	printf("%lu\n", strlen(s1));
+	printf("%lu\n", ft_strlen(s1));
+	printf("%lu\n", strlen(s2));
 	printf("%lu\n", ft_strlen(s2));
 }
