@@ -8,7 +8,7 @@ int main()
     char dest[] = "ABCDEFGHIJKLMNOPQRST";
     printf("Source:\t%s\nDest:\t%s\n", str, dest);
     printf("Copying 10 characters, returns length of source: %d\n", ft_strlcpy(dest, str, 10));
-    printf("Source:\t%s\nDest:\t\n", str);
+    printf("Source:\t%s\nDest:\t", str);
     for(int i = 0; i < 20; i++)
     {
         printf("%c", dest[i]);
